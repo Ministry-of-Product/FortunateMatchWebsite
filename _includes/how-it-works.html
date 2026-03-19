@@ -1,0 +1,15 @@
+<section id="how-it-works" class="section">
+  <div class="container">
+    <h2 class="section-title">How It Works</h2>
+    <p class="section-subtitle">Three simple steps to meaningful connections.</p>
+    <div class="steps">
+      {% for step in site.data.steps %}
+      <div class="step">
+        <div class="step-number">{{ step.number }}</div>
+        <h3 class="step-title">{{ step.title }}</h3>
+        <p class="step-desc">{{ step.description }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

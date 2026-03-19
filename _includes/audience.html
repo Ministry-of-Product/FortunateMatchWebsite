@@ -1,0 +1,15 @@
+<section id="audience" class="section">
+  <div class="container">
+    <h2 class="section-title">Who is this for?</h2>
+    <p class="section-subtitle">FortunateMatch works for everyone in the event ecosystem.</p>
+    <div class="audience-grid">
+      {% for audience in site.data.audiences %}
+      <div class="audience-card">
+        <span class="audience-icon">{{ audience.icon }}</span>
+        <h3 class="audience-title">{{ audience.title }}</h3>
+        <p class="audience-desc">{{ audience.description }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,23 @@
+- title: Intent-Based Matching
+  icon: "🎯"
+  description: Connections are suggested based on what you want and offer at this specific event — not a generic profile.
+
+- title: AI-Generated Suggestions
+  icon: "🤖"
+  description: Smart algorithms surface your best matches with clear reasoning for why you should connect.
+
+- title: Voice Notes & Transcription
+  icon: "🎙️"
+  description: Record voice memos after conversations and get AI-powered summaries so you never forget key details.
+
+- title: Collaborative Matching
+  icon: "🤝"
+  description: Attendees can suggest matches between others, letting the crowd improve matchmaking for everyone.
+
+- title: Gamified Leaderboard
+  icon: "🏆"
+  description: Earn connector points by making great introductions. Leaderboards reward the best networkers.
+
+- title: Ephemeral by Design
+  icon: "🔒"
+  description: Event data expires automatically. You own your data and can export it anytime.

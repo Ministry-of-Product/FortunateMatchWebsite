@@ -1,0 +1,15 @@
+<section id="features" class="section section-alt">
+  <div class="container">
+    <h2 class="section-title">Features</h2>
+    <p class="section-subtitle">Everything you need for meaningful event connections.</p>
+    <div class="card-grid">
+      {% for feature in site.data.features %}
+      <div class="card">
+        <span class="card-icon">{{ feature.icon }}</span>
+        <h3 class="card-title">{{ feature.title }}</h3>
+        <p class="card-desc">{{ feature.description }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,11 @@
+title: FortunateMatch
+description: AI-powered matchmaking for meaningful event connections
+url: ""
+baseurl: ""
+
+markdown: kramdown
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
