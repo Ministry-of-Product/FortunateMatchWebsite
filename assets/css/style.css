@@ -432,6 +432,23 @@ img {
   font-size: 0.85rem;
 }
 
+.footer-mop {
+  display: inline-block;
+  margin-top: 16px;
+  opacity: 0.6;
+  transition: opacity 0.2s;
+}
+
+.footer-mop:hover {
+  opacity: 1;
+}
+
+.footer-mop img {
+  height: 32px;
+  width: auto;
+  border-radius: 4px;
+}
+
 /* === Document Pages (Privacy, Terms) === */
 .doc-content {
   background: var(--bg-card);
