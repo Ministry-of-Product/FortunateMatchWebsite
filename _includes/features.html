@@ -5,8 +5,10 @@
     <div class="card-grid">
       {% for feature in site.data.features %}
       <div class="card">
-        <span class="card-icon">{% include icon.html name=feature.icon size=32 %}</span>
-        <h3 class="card-title">{{ feature.title }}</h3>
+        <div class="card-header">
+          <span class="card-icon">{% include icon.html name=feature.icon size=24 %}</span>
+          <h3 class="card-title">{{ feature.title }}</h3>
+        </div>
         <p class="card-desc">{{ feature.description }}</p>
       </div>
       {% endfor %}
