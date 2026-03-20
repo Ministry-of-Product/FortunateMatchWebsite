@@ -92,6 +92,18 @@ img {
   color: white;
 }
 
+.btn-cta {
+  background: var(--warning);
+  color: white;
+  padding: 8px 20px;
+  font-size: 0.9rem;
+}
+
+.btn-cta:hover {
+  background: #e08e0a;
+  color: white;
+}
+
 /* === Navigation === */
 .site-nav {
   position: fixed;
