@@ -409,3 +409,71 @@ img {
   color: var(--text-muted);
   font-size: 0.85rem;
 }
+
+/* === Document Pages (Privacy, Terms) === */
+.doc-content {
+  background: var(--bg-card);
+  border-radius: var(--radius);
+  padding: 32px 40px;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.doc-content h1 {
+  font-size: 1.75rem;
+  margin-bottom: 24px;
+}
+
+.doc-content h2 {
+  font-size: 1.2rem;
+  margin-top: 28px;
+  margin-bottom: 12px;
+}
+
+.doc-content h3 {
+  font-size: 1.05rem;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+.doc-content p {
+  margin-bottom: 12px;
+  line-height: 1.6;
+  color: var(--text-muted);
+}
+
+.doc-content ul,
+.doc-content ol {
+  margin-bottom: 12px;
+  padding-left: 24px;
+  color: var(--text-muted);
+}
+
+.doc-content li {
+  margin-bottom: 6px;
+  line-height: 1.5;
+}
+
+.doc-content strong {
+  color: var(--text);
+}
+
+.doc-content hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 24px 0;
+}
+
+.doc-content a {
+  color: var(--primary);
+}
+
+.doc-content a:hover {
+  color: var(--primary-dark);
+}
+
+@media (max-width: 767px) {
+  .doc-content {
+    padding: 24px 20px;
+  }
+}
