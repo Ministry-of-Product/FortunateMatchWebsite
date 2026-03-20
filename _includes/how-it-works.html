@@ -5,7 +5,7 @@
     <div class="steps">
       {% for step in site.data.steps %}
       <div class="step">
-        <div class="step-number">{{ step.number }}</div>
+        <div class="step-icon">{% include icon.html name=step.icon size=32 %}</div>
         <h3 class="step-title">{{ step.title }}</h3>
         <p class="step-desc">{{ step.description }}</p>
       </div>

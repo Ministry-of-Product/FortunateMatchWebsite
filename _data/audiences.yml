@@ -1,11 +1,11 @@
 - title: Attendees
-  icon: "👤"
+  icon: user
   description: Find the right people based on your current goals — not just who's nearby.
 
 - title: Organizers
-  icon: "📋"
+  icon: clipboard-list
   description: Provide networking that drives real outcomes and makes your events unforgettable.
 
 - title: Event Platforms
-  icon: "⚡"
+  icon: zap
   description: Embed intent-based matching into your stack and elevate the attendee experience.

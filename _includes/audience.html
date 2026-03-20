@@ -5,7 +5,7 @@
     <div class="audience-grid">
       {% for audience in site.data.audiences %}
       <div class="audience-card">
-        <span class="audience-icon">{{ audience.icon }}</span>
+        <span class="audience-icon">{% include icon.html name=audience.icon size=40 %}</span>
         <h3 class="audience-title">{{ audience.title }}</h3>
         <p class="audience-desc">{{ audience.description }}</p>
       </div>
