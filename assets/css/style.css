@@ -92,16 +92,18 @@ img {
   color: white;
 }
 
-.btn-cta {
+.btn-cta,
+.nav-links .btn-cta {
   background: var(--warning);
-  color: white;
+  color: var(--text);
   padding: 8px 20px;
   font-size: 0.9rem;
 }
 
-.btn-cta:hover {
+.btn-cta:hover,
+.nav-links .btn-cta:hover {
   background: #e08e0a;
-  color: white;
+  color: var(--text);
 }
 
 /* === Navigation === */
@@ -380,7 +382,7 @@ img {
 .about-content {
   max-width: 720px;
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
 }
 
 .about-content p {
@@ -396,25 +398,22 @@ img {
 
 /* === Footer === */
 .site-footer {
-  padding: 40px 0;
+  padding: 24px 0;
   border-top: 1px solid var(--border);
-  text-align: center;
   background: var(--bg-card);
 }
 
-.footer-brand {
-  font-size: 1.1rem;
-  font-weight: 700;
-  color: var(--primary);
-  margin-bottom: 12px;
+.footer-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
 }
 
 .footer-links {
   display: flex;
   gap: 24px;
-  justify-content: center;
   list-style: none;
-  margin-bottom: 16px;
 }
 
 .footer-links a {
@@ -434,7 +433,6 @@ img {
 
 .footer-mop {
   display: inline-block;
-  margin-top: 16px;
   opacity: 0.6;
   transition: opacity 0.2s;
 }
@@ -444,9 +442,16 @@ img {
 }
 
 .footer-mop img {
-  height: 32px;
+  height: 64px;
   width: auto;
   border-radius: 4px;
+}
+
+@media (min-width: 768px) {
+  .footer-row {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
 
 /* === Document Pages (Privacy, Terms) === */
