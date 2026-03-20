@@ -14,9 +14,9 @@
   icon: users
   description: Attendees can suggest matches between others, letting the crowd improve matchmaking for everyone.
 
-- title: Gamified Leaderboard
+- title: Cooperative Group Scoring
   icon: trophy
-  description: Earn connector points by making great introductions. Leaderboards reward the best networkers.
+  description: No individual leaderboard — the whole event shares a group score. Everyone wins when more people find the right connections.
 
 - title: Ephemeral by Design
   icon: shield
